@@ -1,0 +1,692 @@
+[
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "device",
+    "value": "cuda",
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "batch_size",
+    "value": 2,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "data_path",
+    "value": "/home/ubuntu/IDNet/split_normal/fin1_fixed/",
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "resize",
+    "value": true,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "hflip",
+    "value": true,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "normalize",
+    "value": true,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "model_name",
+    "value": "efficientnet_b3",
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "delta::prefix",
+    "value": 0.7967796550074127,
+    "type": 3
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "train_loss",
+    "value": 0.20546482046563191,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "train_acc",
+    "value": 0.9018118466898954,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "val_loss",
+    "value": 1.4315443300174171e-05,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "val_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "test_idnet_loss",
+    "value": 1.4162461268064336e-05,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "test_idnet_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "test_sidtd_loss",
+    "value": 1.6896693269014718,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 579010546934698719,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 1,
+      "value": "0"
+    },
+    "name": "test_sidtd_acc",
+    "value": 0.5384615384615385,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "train_loss",
+    "value": 0.020712266381869935,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "train_acc",
+    "value": 0.9944250871080139,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "val_loss",
+    "value": 1.09446695912002e-05,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "val_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "test_idnet_loss",
+    "value": 7.80697808283198e-06,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "test_idnet_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "test_sidtd_loss",
+    "value": 4.626810792495391,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -6334675155678501155,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 2,
+      "value": "1"
+    },
+    "name": "test_sidtd_acc",
+    "value": 0.37104072398190047,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "train_loss",
+    "value": 0.010147604459305121,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "train_acc",
+    "value": 0.9976306620209059,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "val_loss",
+    "value": 4.995852231930299e-06,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "val_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "test_idnet_loss",
+    "value": 5.303747024489647e-06,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "test_idnet_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "test_sidtd_loss",
+    "value": 1.7801566716411037,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 1263111569783604116,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 3,
+      "value": "2"
+    },
+    "name": "test_sidtd_acc",
+    "value": 0.5429864253393666,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "train_loss",
+    "value": 0.010722837383201653,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "train_acc",
+    "value": 0.9970731707317073,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "val_loss",
+    "value": 4.115477180386441e-08,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "val_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "test_idnet_loss",
+    "value": 3.590240415603107e-08,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "test_idnet_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "test_sidtd_loss",
+    "value": 6.084463635720819,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": -7767505442031296810,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 4,
+      "value": "3"
+    },
+    "name": "test_sidtd_acc",
+    "value": 0.10407239819004525,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "train_loss",
+    "value": 4.483491920242786e-07,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "train_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "val_loss",
+    "value": 3.3242966943969436e-09,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "val_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "test_idnet_loss",
+    "value": 2.3270077443320616e-09,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "test_idnet_acc",
+    "value": 1.0,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "test_sidtd_loss",
+    "value": 7.148536160790543,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": {
+      "ctx_id": 2233902393086410460,
+      "p_ctx": null,
+      "name": "epoch",
+      "iteration": 5,
+      "value": "4"
+    },
+    "name": "test_sidtd_acc",
+    "value": 0.0995475113122172,
+    "type": 1
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "delta::loop",
+    "value": 1913.288943852007,
+    "type": 3
+  },
+  {
+    "projid": "utility",
+    "tstamp": "2024-08-26T16:52:56",
+    "filename": "train.py",
+    "ctx": null,
+    "name": "delta::suffix",
+    "value": 0.0012053469836246222,
+    "type": 3
+  }
+]
