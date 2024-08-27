@@ -258,7 +258,7 @@ def train_model(model, trainloaders, valloaders, test1loaders, test2loaders,
             running_corrects = 0
             # Iterate over data.
             model.train()
-            for inputs, labels in tqdm(trainloaders):
+            for inputs, labels in flor.loop("batch", trainloaders):
                 inputs = inputs.to(device)
                 labels = labels.to(device)
                 
